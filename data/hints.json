@@ -1,0 +1,118 @@
+{
+  "defensive_scout_hints": {
+    "Rush Blitz": [
+      "FIELD VIEW : The rusher is leaning forward, visibly anxious to cross the line.",
+      "FIELD VIEW : Defense is bringing heavy pre-snap noise right near the 7-yard rush marker.",
+      "FIELD VIEW : The rusher is timing your QB's cadence very aggressively.",
+      "FIELD VIEW : Rusher has their ears pinned back, pointing directly at the quarterback.",
+      "FIELD VIEW : Secondary is creeping up to cover the quick throw while the rusher prepares to sprint."
+    ],
+    "Man Coverage": [
+      "FIELD VIEW : Cornerbacks are lined up right in your receivers' faces.",
+      "FIELD VIEW : Defenders are locked eyes with their individual assignments.",
+      "FIELD VIEW : Defensive backs are shadow-stepping every pre-snap motion step-for-step.",
+      "FIELD VIEW : Cornerbacks are playing tight press leverage near the line of scrimmage.",
+      "FIELD VIEW : Secondary isn't watching the QB at all; eyes are glued strictly to receiver hip movement."
+    ],
+    "Zone Coverage": [
+      "FIELD VIEW : Defensive backfield is spread out evenly across the turf.",
+      "FIELD VIEW : Linebackers are keeping their eyes fixed firmly on the QB.",
+      "FIELD VIEW : Secondary members are constantly back-pedaling into designated field quadrants.",
+      "FIELD VIEW : Defenders are reading receiver paths to pass them off to neighboring teammates.",
+      "FIELD VIEW : Defensive backs are playing off-coverage, watching the backfield closely."
+    ],
+    "Cover 2": [
+      "FIELD VIEW : Two safeties have retreated wide toward the field hash marks.",
+      "FIELD VIEW : Middle of the deep field looks open between two deep defenders.",
+      "FIELD VIEW : Safety pair split wide to divide the deep half of the turf in two.",
+      "FIELD VIEW : Cornerbacks are sitting short while safeties gain massive depth on the wings.",
+      "FIELD VIEW : Secondary is showing a clear split-safety shell prior to the snap."
+    ],
+    "Cover 3": [
+      "FIELD VIEW : A single safety is sitting deep in the middle of the field.",
+      "FIELD VIEW : Cornerbacks are backing off deep while a safety guards the center.",
+      "FIELD VIEW : Defense is showing three deep zone defenders lining up across the secondary.",
+      "FIELD VIEW : Outside cornerbacks are dropping off fast to protect against the deep sidelines.",
+      "FIELD VIEW : Single-high safety alignment detected in the center field."
+    ],
+    "Prevent": [
+      "FIELD VIEW : The secondary is standing almost 15 yards behind the line!",
+      "FIELD VIEW : Defense has completely backed off—massive cushion given.",
+      "FIELD VIEW : Safeties and corners are lined up almost at the end zone boundary.",
+      "FIELD VIEW : Secondary is playing ultra-conservative to guard exclusively against long bombs.",
+      "FIELD VIEW : Huge underneath gaps visible as defenders retreat way past the first-down marker."
+    ],
+    "Goal Line Stand": [
+      "FIELD VIEW : Every single defender is crowded tightly near the goal line.",
+      "FIELD VIEW : Defense is stacked thick in the short field area.",
+      "FIELD VIEW : Cornerbacks are playing ultra-aggressive press right on the goal line marker.",
+      "FIELD VIEW : Defensive wall is tightly compressed, giving zero breathing room inside.",
+      "FIELD VIEW : Defenders are digging their cleats in deep to hold the goal line barrier."
+    ]
+  },
+  "offensive_scout_hints": {
+    "Smash Concept": [
+      "FIELD VIEW : The outside wideout is aligned wide while the slot receiver steps slightly back.",
+      "FIELD VIEW : Receivers on the right are paired up for a high-low pass combination.",
+      "FIELD VIEW : Slot receiver is checking his depth, preparing to run a quick corner route.",
+      "FIELD VIEW : Outside receiver is pressing up close to the line to sell a short hitch.",
+      "FIELD VIEW : Offense is setting up a classic high-low stretch on the outside corner."
+    ],
+    "Mesh Concept": [
+      "FIELD VIEW : Two receivers are lined up close in slot positions on opposite sides.",
+      "FIELD VIEW : Wideouts are eyeing each other across the formation, getting ready to cross paths.",
+      "FIELD VIEW : Slot players are crouched low, gearing up for shallow crossing routes.",
+      "FIELD VIEW : Receivers are setting up tight alignment to create a natural rub route over the middle.",
+      "FIELD VIEW : Offense is spreading the field short to pick apart man coverage across the center."
+    ],
+    "Levels Concept": [
+      "FIELD VIEW : Multiple receivers are stacked on one side at varying depths.",
+      "FIELD VIEW : Offense is showing an asymmetric alignment targeting the middle of the field.",
+      "FIELD VIEW : Inside receivers are taking staggered stances to run dig routes at different yardages.",
+      "FIELD VIEW : Wideouts are stacked close, gearing up to cut horizontally across zone gaps.",
+      "FIELD VIEW : Passing tree is heavy on intermediate and short in-breaking routes."
+    ],
+    "Four Verticals": [
+      "FIELD VIEW : Four receivers are spread wide, leaning forward in sprint stances.",
+      "FIELD VIEW : Entire receiving core is lined up wide with eyes locked deep downfield.",
+      "FIELD VIEW : Offense is spreading maximum width to stretch the deep secondary.",
+      "FIELD VIEW : Wideouts are tapping their gloves, getting ready to go on an all-out go-route spree.",
+      "FIELD VIEW : Receivers are showing pure speed stances, planning to test your deep safeties."
+    ],
+    "Post-Corner": [
+      "FIELD VIEW : Receiver is taking an exaggerated inside stance near the boundary.",
+      "FIELD VIEW : Primary wideout is adjusting his helmet, preparing for a double-move route.",
+      "FIELD VIEW : Receiver on the hash line is angling his body to fake an inside cut.",
+      "FIELD VIEW : Outside target is aligned off the line, giving himself room for a deep double-move.",
+      "FIELD VIEW : Offense's top target is lining up isolated, ready to bait the cornerback."
+    ],
+    "Slant-Vertical": [
+      "FIELD VIEW : Receiver close to the line is angling his hips inward toward the QB.",
+      "FIELD VIEW : Inside slot man is poised for a quick jab-step before breaking upfield.",
+      "FIELD VIEW : Offense is setting up a quick-striking option route near the line of scrimmage.",
+      "FIELD VIEW : Wideout is digging his inside cleat in deep to drive hard toward the hash mark.",
+      "FIELD VIEW : Target is setting up a route designed to exploit blitz-heavy coverage."
+    ],
+    "Flood Concept": [
+      "FIELD VIEW : Offense is heavily overloaded with three receivers to one side.",
+      "FIELD VIEW : Triple threat stacked wide, preparing to flood one side of the defensive zone.",
+      "FIELD VIEW : Receivers are spaced out to hit short, medium, and deep routes on the same sideline.",
+      "FIELD VIEW : Heavy formation shift toward the right hash mark just before the play call.",
+      "FIELD VIEW : Offense is lining up to overwhelm a single side of your secondary."
+    ],
+    "Out & Up": [
+      "FIELD VIEW : Wideout is tapping his cleats, looking to turn on the jet boosters late.",
+      "FIELD VIEW : Outside receiver is giving a subtle head-nod toward the sideline.",
+      "FIELD VIEW : Receiver is set up to sell a quick out-route before accelerating deep.",
+      "FIELD VIEW : Offense is baiting your cornerbacks with a quick-cut setup near the boundary.",
+      "FIELD VIEW : Target receiver is loosening up his stride for a trick double-move."
+    ],
+    "Jet Sweep": [
+      "FIELD VIEW : A receiver is stepping into full-speed motion behind the QB!",
+      "FIELD VIEW : Wideout is sprinting horizontally across the backfield before the snap!",
+      "FIELD VIEW : Offense is sending speed in motion across the line to take the edge!",
+      "FIELD VIEW : Speedy receiver is creeping into the backfield to catch a quick handoff on the run!",
+      "FIELD VIEW : Motion player is building up a full head of steam toward the sideline!"
+    ]
+  }
+}

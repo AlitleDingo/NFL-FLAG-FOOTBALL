@@ -1,0 +1,70 @@
+{
+  "offense_playbook": {
+    "Smash Concept": "pass",
+    "Mesh Concept": "pass",
+    "Levels Concept": "pass",
+    "Four Verticals": "pass",
+    "Post-Corner": "pass",
+    "Slant-Vertical": "pass",
+    "Flood Concept": "pass",
+    "Out & Up": "pass",
+    "Jet Sweep": "run"
+  },
+  "defensive_choices": [
+    "Rush Blitz",
+    "Man Coverage",
+    "Zone Coverage",
+    "Cover 2",
+    "Cover 3",
+    "Prevent",
+    "Goal Line Stand"
+  ],
+  "matchups": {
+    "Mesh Concept":   {"beats": ["Rush Blitz", "Man Coverage"], "counters": ["Zone Coverage", "Cover 2"]},
+    "Slant-Vertical": {"beats": ["Rush Blitz", "Man Coverage"], "counters": ["Zone Coverage", "Cover 3"]},
+    "Smash Concept":  {"beats": ["Cover 2", "Zone Coverage"],   "counters": ["Man Coverage", "Cover 3"]},
+    "Flood Concept":  {"beats": ["Cover 2", "Zone Coverage"],   "counters": ["Man Coverage", "Prevent"]},
+    "Levels Concept": {"beats": ["Zone Coverage", "Cover 3"],   "counters": ["Rush Blitz", "Man Coverage"]},
+    "Four Verticals": {"beats": ["Cover 2", "Goal Line Stand"], "counters": ["Cover 3", "Prevent"]},
+    "Post-Corner":    {"beats": ["Man Coverage", "Cover 2"],    "counters": ["Cover 3", "Prevent"]},
+    "Out & Up":       {"beats": ["Man Coverage", "Rush Blitz"],  "counters": ["Zone Coverage", "Prevent"]},
+    "Jet Sweep":      {"beats": ["Zone Coverage", "Prevent"],    "counters": ["Rush Blitz", "Goal Line Stand"]}
+  },
+  "play_summaries": {
+
+    "Smash Concept": "HOW IT WORKS: The outside receiver runs a short hitch while the inside receiver runs a corner route behind it, creating a high-low read that forces the defense to choose. GOOD AGAINST: Cover 2, Zone Coverage — the hitch occupies the underneath defender while the corner route attacks the space behind them. BAD AGAINST: Man Coverage, Cover 3 — man defenders can follow their receivers, while Cover 3 provides a deep defender to protect against the corner route.",
+
+    "Mesh Concept": "HOW IT WORKS: Two receivers cross underneath the defense on shallow routes, creating traffic and forcing defenders to navigate the crossing routes. GOOD AGAINST: Rush Blitz, Man Coverage — the routes develop quickly against a blitz, while man defenders can get caught in the crossing routes and lose separation. BAD AGAINST: Zone Coverage, Cover 2 — zone defenders can pass receivers between zones instead of chasing them, while Cover 2's underneath defenders can sit on the crossing routes.",
+
+    "Levels Concept": "HOW IT WORKS: Receivers attack the same area of the field at different depths, giving the quarterback multiple options and forcing defenders to cover several levels. GOOD AGAINST: Zone Coverage, Cover 3 — the different route depths create gaps between defenders and can attack the spaces underneath and between deep zones. BAD AGAINST: Rush Blitz, Man Coverage — the deeper routes need time to develop, while man defenders can simply follow their assigned receivers.",
+
+    "Four Verticals": "HOW IT WORKS: Multiple receivers run deep vertical routes, stretching the defense across the entire field and attacking the seams between deep defenders. GOOD AGAINST: Cover 2, Goal Line Stand — four vertical routes can overload Cover 2's two deep defenders, while a defense focused heavily near the goal line can leave opportunities behind it. BAD AGAINST: Cover 3, Prevent — three deep defenders divide the field more effectively against vertical routes, while Prevent adds even more deep coverage.",
+
+    "Post-Corner": "HOW IT WORKS: A receiver initially attacks the middle of the field with a post before breaking back toward the corner, forcing the defender to change direction twice. GOOD AGAINST: Man Coverage, Cover 2 — the sharp route changes can create separation against man defenders, while the corner break can attack the space between the Cover 2 corner and safety. BAD AGAINST: Cover 3, Prevent — Cover 3 provides deep outside protection while also having help toward the middle, and Prevent adds extra deep defenders.",
+
+    "Slant-Vertical": "HOW IT WORKS: One receiver attacks underneath with a quick slant while another stretches the defense vertically, forcing defenders to defend both short and deep threats. GOOD AGAINST: Rush Blitz, Man Coverage — the slant gives the quarterback a quick option against pressure, while the vertical route can pull defenders away from the slant. BAD AGAINST: Zone Coverage, Cover 3 — zone defenders can stay positioned over the slant while another defender handles the vertical route, and Cover 3 provides layered coverage against both.",
+
+    "Flood Concept": "HOW IT WORKS: Multiple receivers attack the same side of the field at different depths, overwhelming the defenders responsible for that area. GOOD AGAINST: Cover 2, Zone Coverage — the layered routes force defenders to divide their attention and can overload a single zone. BAD AGAINST: Man Coverage, Prevent — man defenders can each stay with their assigned receiver, while Prevent places extra defenders deep and reduces the effectiveness of the deeper routes.",
+
+    "Out & Up": "HOW IT WORKS: A receiver first runs an out route to make the defender expect a short outside break, then turns upfield into a deep route. GOOD AGAINST: Man Coverage, Rush Blitz — the initial out can cause a man defender to commit outside before the receiver goes deep, while the quarterback can also use the quick out against a blitz. BAD AGAINST: Zone Coverage, Prevent — zone defenders do not have to follow the initial out and can remain positioned against the deep route, while Prevent provides extra deep coverage.",
+
+    "Jet Sweep": "HOW IT WORKS: A receiver moves horizontally across the formation before taking the handoff, attacking the edge and forcing the defense to move laterally. GOOD AGAINST: Zone Coverage, Prevent — the horizontal motion can pull zone defenders out of position and attack space on the edge, while Prevent focuses heavily on stopping deep passes. BAD AGAINST: Rush Blitz, Goal Line Stand — aggressive defenders can penetrate before the sweep reaches the edge, while a goal-line defense has defenders packed close to the line with little room to turn the corner."
+
+  },
+  "defense_summaries": {
+
+  "Rush Blitz": "HOW IT WORKS: Sends extra defenders toward the quarterback to create pressure quickly, sacrificing some coverage to get into the backfield faster. GOOD AGAINST: Jet Sweep, Long Pass Routes — the extra pressure can reach the backfield before a Jet Sweep reaches the edge and can disrupt long routes before they develop. BAD AGAINST: Quick Passes (Mesh, Slants) — quick routes get the ball out before the blitz can reach the quarterback, allowing receivers to gain yards in the space left by the blitzing defenders.",
+
+  "Man Coverage": "HOW IT WORKS: Each defender is assigned a specific receiver and follows them wherever they run, preventing receivers from easily finding open zones. GOOD AGAINST: Deep Pass Concepts (Four Verticals) — defenders stay directly with their assigned receivers instead of having to divide large areas of the field between multiple deep routes. BAD AGAINST: Rub Routes (Mesh, Post-Corner) — crossing and sharply changing routes can create traffic and separation, making it difficult for defenders to stay with their assignments.",
+
+  "Zone Coverage": "HOW IT WORKS: Defenders are responsible for specific areas of the field rather than individual receivers, allowing them to watch the quarterback and react to routes entering their zones. GOOD AGAINST: Quick Passes, Out Routes — defenders can remain positioned in the areas targeted by short routes and quickly close on receivers after the catch. BAD AGAINST: Flood & Smash Concepts — multiple receivers attacking the same area at different depths can force one defender to choose which route to cover, creating openings in the zone.",
+
+  "Cover 2": "HOW IT WORKS: Two deep safeties divide the field while underneath defenders protect the short and intermediate areas, creating strong coverage underneath. GOOD AGAINST: Short Runs, Underneath Passes — defenders are positioned close enough to the line and underneath routes to quickly stop short gains. BAD AGAINST: Deep Corners & Smash Concepts — deep corner routes can attack the space between the cornerback and safety, while Smash forces those defenders to choose between a short and deep route.",
+
+  "Cover 3": "HOW IT WORKS: Three deep defenders divide the field into thirds while underneath defenders cover shorter areas, providing strong protection against deep passes. GOOD AGAINST: Deep Bombs (Four Verticals, Post-Corner) — three deep defenders provide more help against multiple vertical routes and reduce the open space available downfield. BAD AGAINST: Levels & Quick Slants — receivers attacking different depths can create gaps between the underneath and deep defenders, while quick slants can reach open areas before the zone closes.",
+
+  "Prevent": "HOW IT WORKS: Drops extra defenders deep downfield to prevent large passing plays, sacrificing underneath coverage and short-yardage defense. GOOD AGAINST: Deep Endzone Passes — the extra deep defenders make it difficult for receivers to get behind the defense near the end zone. BAD AGAINST: Underneath Runs & Quick Chunk Plays — with defenders positioned farther downfield, short runs and quick passes can gain steady yards underneath before defenders can close in.",
+
+  "Goal Line Stand": "HOW IT WORKS: Packs defenders close to the line of scrimmage and concentrates coverage around the end zone, prioritizing stopping short-yardage plays. GOOD AGAINST: Inside Runs & Short Goal Line Passes — the defense has extra bodies near the line, making it difficult for runners to push through and receivers to find immediate openings. BAD AGAINST: Four Verticals — committing heavily to the line leaves fewer defenders available deep, allowing vertical routes to attack space behind the defense."
+}
+}

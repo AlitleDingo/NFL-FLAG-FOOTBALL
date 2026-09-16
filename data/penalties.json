@@ -1,0 +1,42 @@
+{
+  "offense_penalties": [
+    {
+      "name": "False Start",
+      "yards": -5,
+      "replay_down": true,
+      "text": "PENALTY: False Start! The offensive line twitched pre-snap. Loss of 5 yards, repeat the down."
+    },
+    {
+      "name": "Offensive Pass Interference",
+      "yards": -10,
+      "replay_down": true,
+      "text": "PENALTY: Offensive Pass Interference! Receiver pushed off at the break. Loss of 10 yards, repeat the down."
+    },
+    {
+      "name": "Illegal Flag Shielding",
+      "yards": -5,
+      "replay_down": false,
+      "text": "PENALTY: Flag Guarding! Runner swatted away the defender's hand. Loss of 5 yards from the spot."
+    }
+  ],
+  "defense_penalties": [
+    {
+      "name": "Offside / Encroachment",
+      "yards": 5,
+      "replay_down": true,
+      "text": "PENALTY: Defensive Offside! Rusher crossed the 7-yard rush line early. 5 yard penalty, repeat down."
+    },
+    {
+      "name": "Defensive Pass Interference",
+      "yards": 10,
+      "replay_down": true,
+      "text": "PENALTY: Defensive Pass Interference! Cornerback tackled the receiver before the ball arrived! 10 yard penalty, automatic first down!"
+    },
+    {
+      "name": "Illegal Contact / Holding",
+      "yards": 5,
+      "replay_down": true,
+      "text": "PENALTY: Defensive Holding! Corner grabbing jersey downfield. 5 yard penalty, repeat down."
+    }
+  ]
+}
